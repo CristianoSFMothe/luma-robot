@@ -1,0 +1,46 @@
+{"level":30,"time":"2025-01-29T22:43:55.698Z","pid":24456,"hostname":"Cristiano","msg":"Listening on 60941"}
+(node:24456) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-01-29T22:43:56.168Z","pid":24456,"hostname":"Cristiano","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-01-29T22:43:56.434Z","pid":24456,"hostname":"Cristiano","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-01-29T22:43:56.434Z","pid":24456,"hostname":"Cristiano","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-01-29T22:43:56.434Z","pid":24456,"hostname":"Cristiano","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-01-29T22:43:56.442Z","pid":24456,"hostname":"Cristiano","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-01-29T22:43:56.443Z","pid":24456,"hostname":"Cristiano","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-01-29T22:43:56.463Z","pid":24456,"hostname":"Cristiano","msg":"Changed active context"}
+{"level":30,"time":"2025-01-29T22:43:56.738Z","pid":24456,"hostname":"Cristiano","msg":"Video path: undefined"}
+{"level":30,"time":"2025-01-29T22:43:56.740Z","pid":24456,"hostname":"Cristiano","msg":"Changed active page"}
+{"level":30,"time":"2025-01-29T22:43:59.084Z","pid":24456,"hostname":"Cristiano","msg":"End of node method newPage"}
+{"level":30,"time":"2025-01-29T22:43:59.090Z","pid":24456,"hostname":"Cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-29T22:43:59.090Z","pid":24456,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=span >> text=Home Page in page."}
+{"level":30,"time":"2025-01-29T22:43:59.127Z","pid":24456,"hostname":"Cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-29T22:43:59.133Z","pid":24456,"hostname":"Cristiano","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-29T22:43:59.134Z","pid":24456,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=.product-item-details >> text=Radiant Tee in page."}
+{"level":30,"time":"2025-01-29T22:43:59.139Z","pid":24456,"hostname":"Cristiano","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-29T22:43:59.143Z","pid":24456,"hostname":"Cristiano","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2025-01-29T22:43:59.143Z","pid":24456,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=.product-item-details >> text=Radiant Tee in page."}
+{"level":30,"time":"2025-01-29T22:43:59.182Z","pid":24456,"hostname":"Cristiano","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2025-01-29T22:43:59.186Z","pid":24456,"hostname":"Cristiano","msg":"Start of node method click"}
+{"level":30,"time":"2025-01-29T22:43:59.186Z","pid":24456,"hostname":"Cristiano","msg":"Strict mode is enabled, find Locator with css=.product-item-details >> text=Radiant Tee in page."}
+{"level":30,"time":"2025-01-29T22:43:59.793Z","pid":24456,"hostname":"Cristiano","msg":"End of node method click"}
+{"level":30,"time":"2025-01-29T22:44:01.799Z","pid":24456,"hostname":"Cristiano","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-01-29T22:44:01.799Z","pid":24456,"hostname":"Cristiano","Take screenshot with options: ":{"path":"D:\\workspace\\luma-robot\\logs\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":true,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-01-29T22:44:02.164Z","pid":24456,"hostname":"Cristiano","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-01-29T22:44:02.172Z","pid":24456,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-29T22:44:02.174Z","pid":24456,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-29T22:44:02.177Z","pid":24456,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-29T22:44:02.179Z","pid":24456,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-29T22:44:02.180Z","pid":24456,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-29T22:44:02.182Z","pid":24456,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-29T22:44:02.184Z","pid":24456,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-29T22:44:02.186Z","pid":24456,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-29T22:44:02.188Z","pid":24456,"hostname":"Cristiano","msg":"Changed active context"}
+{"level":30,"time":"2025-01-29T22:44:02.188Z","pid":24456,"hostname":"Cristiano","msg":"Changing current active page: page=3afcbf01-bbbc-43ee-85c7-8108973069e7"}
+{"level":30,"time":"2025-01-29T22:44:02.188Z","pid":24456,"hostname":"Cristiano","msg":"Changed active page"}
+{"level":30,"time":"2025-01-29T22:44:02.192Z","pid":24456,"hostname":"Cristiano","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-01-29T22:44:02.204Z","pid":24456,"hostname":"Cristiano","msg":"Removed page=771c7ebb-476b-4b11-8e1d-790761962be5 from context=bd239103-ff03-4dfb-ac9c-7d3f52800f59 page stack"}
+{"level":30,"time":"2025-01-29T22:44:02.254Z","pid":24456,"hostname":"Cristiano","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-01-29T22:44:02.270Z","pid":24456,"hostname":"Cristiano","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-29T22:44:02.270Z","pid":24456,"hostname":"Cristiano","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-29T22:44:02.336Z","pid":24456,"hostname":"Cristiano","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-01-29T22:44:02.667Z","pid":24456,"hostname":"Cristiano","msg":"End of node method closeAllBrowsers"}
