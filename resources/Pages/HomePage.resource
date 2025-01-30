@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation        Arquivo de keywords da tela principal
+Documentation       Main screen keyword file
 
 Resource    ../Base.resource
 

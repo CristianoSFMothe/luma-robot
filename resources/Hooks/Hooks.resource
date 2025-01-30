@@ -15,3 +15,9 @@ Start Browser
 
 Finish Browser
     Take Screenshot        fullPage=true     
+
+Check the Page Title
+    [Arguments]        ${title_page}
+    
+    ${title}           Get Title
+    Should Be Equal    ${title}    ${title_page}
