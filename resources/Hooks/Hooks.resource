@@ -21,3 +21,4 @@ Check the Page Title
     
     ${title}           Get Title
     Should Be Equal    ${title}    ${title_page}
+    

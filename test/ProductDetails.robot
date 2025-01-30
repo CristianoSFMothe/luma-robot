@@ -28,11 +28,5 @@ Add Product to shopping cart
     Select Color                        Purple
     Select Quantity                     3
     Click Button Add To Cart
-    Successfully added message          You added Radiant Tee to your 
-
-
-    Sleep    5s
-
-
-
-    
+    Successfully added message          You added Radiant Tee to your  
+    Open Cart Page                      Radiant Tee    Shopping Cart

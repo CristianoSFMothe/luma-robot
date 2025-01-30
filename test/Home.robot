@@ -7,8 +7,8 @@ Test Teardown    Finish Browser
 
 *** Test Cases ***
 Home Page
-    [Documentation]
-    [Tags]    HomePage
+    [Documentation]       test suite home page
+    [Tags]                HomePage
 
     Open Home Page                      Home Page
 

@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation       Main screen keyword file
+Documentation       Home page keyword file
 
 Resource    ../Base.resource
 

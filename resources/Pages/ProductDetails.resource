@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation        Keyword file from the product details screen
+Documentation        Keyword file from the product details page
 
 Resource    ../Base.resource
 
@@ -49,10 +49,13 @@ Click Menu More Information
 
 
 Click Menu Reviews
-    [Arguments]        ${expected_text}    
+    [Arguments]        ${expected_text} 
+
+    ${message}    Set Variable    css=strong >> text=${expected_text}   
 
     Click    css=#tab-label-reviews-title
-    Wait For Elements State    css=strong >> text=${expected_text}    timeout=5s 
+    Wait For Elements State    ${message}    timeout=5s 
+    Get Text                   ${message}    
 
 Select Quantity
     [Arguments]        ${qty}
@@ -75,5 +78,8 @@ Click Button Add To Cart
 Successfully added message
     [Arguments]    ${expected_text}
 
-    Wait For Elements State    css=.messages >> text=${expected_text}
+    ${message}    Set Variable     css=.messages >> text=${expected_text}   
+
+    Wait For Elements State    ${message}
+    Get Text                   ${message}    
 
