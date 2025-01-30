@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation
+Documentation    Account Confirmation page keyword archive
 
 Resource    ../Base.resource
 

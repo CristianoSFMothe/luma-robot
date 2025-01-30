@@ -22,3 +22,21 @@ Check the Page Title
     ${title}           Get Title
     Should Be Equal    ${title}    ${title_page}
     
+Get JSON
+
+    [Arguments]    ${json_path}
+
+    ${json}    Load Json From File    
+    ...        ${EXECDIR}/resources/JSON/${json_path}.json
+    ...        encoding=UTF-8
+    
+    Return From Keyword    ${json}
+
+Account Information
+    [Arguments]    ${name_account}    ${email_account}
+
+    ${account_info}    Set Variable    css=.box-content > p
+
+    Wait For Elements State    ${account_info}    visible    timeout=5s
+    Get Text    ${account_info}    contains    ${name_account}
+    Get Text    ${account_info}    contains    ${email_account}

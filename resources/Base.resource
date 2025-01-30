@@ -14,3 +14,4 @@ Resource    ../resources/Pages/RegisterPage.resource
 
 # Locators
 Resource    ../resources/locators/RegisterLocators.resource
+Resource    ../resources/locators/LoginLocators.resource
