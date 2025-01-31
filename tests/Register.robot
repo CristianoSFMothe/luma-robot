@@ -19,8 +19,8 @@ Create a New Account
     ${password}      FakerLibrary.Password    length=12    special_chars=True
     ${password_confirmation}    Set Variable    ${password}
 
-    Fill Credentials a New Account    ${first_name}    ${last_name}    
-    ...                 ${input_email}    ${password}    
+    Fill Credentials    ${first_name}    ${last_name}    
+    ...                 ${email}    ${password}    
     ...                 ${password_confirmation}
     ...    Thank you for registering with Main Website Store.
     
