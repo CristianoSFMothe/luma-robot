@@ -2,7 +2,6 @@
 Documentation       Checkout page keyword archive
 
 Resource    ../Base.resource
-Library    XML
 
 *** Keywords ***
 Open Cart Page
